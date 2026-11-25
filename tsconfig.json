@@ -16,7 +16,6 @@
     "jsx": "react-jsx",
     "emitDecoratorMetadata": true,
     "experimentalDecorators": true,
-    "incremental": true,
     "types": ["vitest/globals", "vite/client", "bun"],
     "paths": {
       "~/*": ["./*"]

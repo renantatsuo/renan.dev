@@ -15,7 +15,7 @@
     "build": "npx vite build --mode prod",
     "start": "bun .vercel/output/functions/__server.func/index.mjs",
     "test": "vitest run",
-    "type-check": "tsc --noEmit",
+    "type-check": "bun check",
     "lint": "biome check .",
     "format": "biome check --write ."
   },
@@ -52,7 +52,6 @@
     "jsdom": "^31.0.1",
     "nitro": "^3.0.261103-rc",
     "tailwindcss": "^4.3.5",
-    "typescript": "^7.0.2",
     "vite": "^8.3.8",
     "vitest": "^5.1.0"
   }
